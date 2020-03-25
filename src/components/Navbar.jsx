@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "bootstrap/js/dist/collapse.js";
 import logo from "../assets/images/sports-logo-transparent.png";
 import { MenuOverlay } from "./styled/MenuOverlay";
 import { MenuButton } from "./styled/MenuButton";
