@@ -10,7 +10,7 @@ export const MenuOverlay = styled.div`
   z-index: 1099;
   top: 0;
   right: 0;
-  background-color: #d2f2fa;
+  background-color: rgb(74, 0, 103);
 
   &.open {
     width: ${2 * width}px;

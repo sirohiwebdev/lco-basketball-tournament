@@ -70,7 +70,7 @@ export const Navbar = props => {
           <>
             <div className={`menu-inner ${menuInner ? "d-block" : "d-none"}`}>
               <div className="h-100 d-flex flex-column justify-content-center align-items-center">
-                <h1 className="text-imp text-effect mb-5">Menu</h1>
+                <h1 className="text-imp text-white text-effect mb-5">Menu</h1>
 
                 <div className="text-center mt-5">
                   <ul class="navbar-nav">
@@ -145,7 +145,7 @@ export const Navbar = props => {
                     <li class="nav-item mt-3">
                       <div>
                         <Button
-                          color="success"
+                          color="light"
                           className="rounded-0 w-100"
                           onClick={() => {
                             console.log("Login");
@@ -157,7 +157,7 @@ export const Navbar = props => {
                         </Button>
 
                         <Button
-                          color="primary"
+                          color="light"
                           outline
                           className="rounded-0 w-100 mt-3"
                           onClick={() => {

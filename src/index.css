@@ -8,11 +8,11 @@ body {
 
 .full-header {
   height: 100vh;
-  background-color: #d2f2fa;
-  background-image: url("./assets/images/back@2x.png");
-  /* background-attachment: fixed; */
-  background-position: right bottom;
-  background-size: auto 100%;
+  background-color: #ffffff;
+  background-image: url("./assets/images/circle.png"),
+    url("./assets/images/tournament.png"), url("./assets/images/circle.png");
+  background-position: -100px 90%, 85% center, right center;
+  background-size: 200px, auto 90%, auto;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -112,18 +112,24 @@ body {
 .link {
   font-size: 1.5rem;
   text-transform: capitalize;
+  color: #ffffff;
 }
 
-.link,
+.sociallink {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  transition: color 0.3s linear;
+  color: rgb(74, 0, 103);
+}
+
 .text-imp {
   color: rgb(74, 0, 103) !important;
 }
 
-.link.active,
 .text-sec {
   color: rgb(255, 139, 0) !important;
 }
-
+.sociallink:hover,
 .link:hover {
   color: rgb(255, 139, 0) !important;
 }
@@ -131,7 +137,6 @@ body {
 .tagline {
   font-size: 2rem;
   text-shadow: 1px 1px 0px rgb(196, 109, 3);
-  text-transform: uppercase;
   letter-spacing: 0.02rem;
 }
 
@@ -218,13 +223,11 @@ body {
   left: -30px;
   top: 20%;
   transform: translateY(-50%);
-  background-color: rgb(183, 83, 212);
-  opacity: 0.4;
+  background-color: rgb(255, 139, 0);
 }
 
 .menu-inner {
   position: fixed;
-  color: red;
   width: 100vw;
   height: 100vh;
   left: 0;
@@ -274,10 +277,9 @@ body {
   }
 
   .full-header {
-    background-color: #d2f2fa;
-    background-image: url("./assets/images/back@2x.png");
-    background-position: center bottom;
-    background-size: auto 100%;
+    background-image: url("./assets/images/tournament.png");
+    background-position: center center;
+    background-size: auto 90%;
   }
 
   .logo {

@@ -38,6 +38,7 @@ export const Modal = props => {
           onClick={() => {
             props.cancel(true);
           }}
+          className="text-white"
         >
           <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>
         </span>

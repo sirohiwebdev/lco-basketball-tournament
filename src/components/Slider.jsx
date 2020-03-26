@@ -19,13 +19,13 @@ export const Slider = () => {
           <p className="text-center text-muted">My favourite Job</p>
         </div>
         <div className="mt-3 col d-flex justify-content-around px-5">
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGooglePlus} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
@@ -39,13 +39,13 @@ export const Slider = () => {
           <p className="text-center text-muted">My favourite Job</p>
         </div>
         <div className="mt-3 col d-flex justify-content-around px-5">
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGooglePlus} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
@@ -59,13 +59,13 @@ export const Slider = () => {
           <p className="text-center text-muted">My favourite Job</p>
         </div>
         <div className="mt-3 col d-flex justify-content-around px-5">
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGooglePlus} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
@@ -79,13 +79,13 @@ export const Slider = () => {
           <p className="text-center text-muted">My favourite Job</p>
         </div>
         <div className="mt-3 col d-flex justify-content-around px-5">
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGooglePlus} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
@@ -99,13 +99,13 @@ export const Slider = () => {
           <p className="text-center text-muted">My favourite Job</p>
         </div>
         <div className="mt-3 col d-flex justify-content-around px-5">
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGooglePlus} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#" className="link">
+          <a href="#" className="sociallink">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>

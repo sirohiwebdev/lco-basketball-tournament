@@ -1,10 +1,12 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
 import aboutImage from "../assets/images/img3.png";
-import tournamentImage from "../assets/images/tournament.png";
+import tournamentImage from "../assets/images/back@2x.png";
 import contactImage from "../assets/images/img2.png";
 import { Slider } from "../components/Slider";
 import { ListGroup, ListGroupItem, Row, Col } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 export const Home = props => {
   return (
@@ -13,12 +15,12 @@ export const Home = props => {
         <Navbar {...props} />
         <div className="full-header d-flex justify-content-center align-items-center flex-column col">
           <Row>
-            <Col md={6}>
-              <h1 className="text-imp headline my-5 text-center">
+            <Col md={8}>
+              <h1 className="text-dark headline my-5 text-center">
                 Amazing Basketball Tournament
               </h1>
               <h1 className="text-sec tagline text-center">
-                Go fight for it team
+                Go Fight For It Team
               </h1>
             </Col>
           </Row>
@@ -59,7 +61,7 @@ export const Home = props => {
                 <img
                   src={tournamentImage}
                   alt="LCO Tournament"
-                  className="img-fluid w-75 mx-auto"
+                  className="img-fluid"
                 />
               </div>
             </div>
@@ -114,54 +116,54 @@ export const Home = props => {
             </div>
 
             <div className="col-md-12 d-flex align-items-center px-md-5 px-sm-2">
-              <div className="faq-box mx-auto">
-                <ListGroup>
-                  <ListGroupItem className="my-2 border">
+              <div className="faq-box mx-auto  p-2">
+                <div>
+                  <div className="mb-2 p-2 border border-light rounded">
                     <h4>What is LCO tournament is about?</h4>
-                    <p>
+                    <div>
                       LCO is coming up with and amazing Basketball Tournament.
-                    </p>
-                  </ListGroupItem>
+                    </div>
+                  </div>
 
-                  <ListGroupItem className="my-2 border">
+                  <div className="mb-2 p-2 border border-light rounded">
                     <h4>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit?
                     </h4>
-                    <p>
+                    <div>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Tempora aspernatur aliquid fugit dicta tenetur consequatur
                       dolore deleniti, optio, molestiae recusandae, omnis quas
                       debitis deserunt temporibus at perspiciatis harum eos
                       architecto.
-                    </p>
-                  </ListGroupItem>
+                    </div>
+                  </div>
 
-                  <ListGroupItem className="my-2 border">
+                  <div className="mb-2 p-2 border border-light rounded">
                     <h4>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit?
                     </h4>
-                    <p className="text-muted">
+                    <div className="text-muted">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Tempora aspernatur aliquid fugit dicta tenetur consequatur
                       dolore deleniti, optio, molestiae recusandae, omnis quas
                       debitis deserunt temporibus at perspiciatis harum eos
                       architecto.
-                    </p>
-                  </ListGroupItem>
+                    </div>
+                  </div>
 
-                  <ListGroupItem className="my-2 border">
+                  <div className="mb-2 p-2 border border-light rounded">
                     <h4>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit?
                     </h4>
-                    <p className="text-muted">
+                    <div className="text-muted">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Tempora aspernatur aliquid fugit dicta tenetur consequatur
                       dolore deleniti, optio, molestiae recusandae, omnis quas
                       debitis deserunt temporibus at perspiciatis harum eos
                       architecto.
-                    </p>
-                  </ListGroupItem>
-                </ListGroup>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -182,7 +184,7 @@ export const Home = props => {
               <h1 className="text-imp text-center text-effect my-5">
                 Contact Us
               </h1>
-              <p className="px-md-5 px-sm-2 text-justify mt-4">
+              <div className="px-md-5 px-sm-2 text-justify mt-4">
                 <div className="h5 mb-1">Mobile</div>
                 <div className="text-muted">+91-999999999</div>
                 <div className="h5 mt-3 mb-1">Address</div>
@@ -190,9 +192,18 @@ export const Home = props => {
                   LCO Basketball Ground, 55 - Fictional Homes, <br /> Fictional
                   Road Near Fictional Lake. India
                 </div>
-              </p>
+              </div>
             </div>
           </div>
+        </div>
+        <div className="col-12 py-5 bg-white text-center">
+          Designed with{" "}
+          <FontAwesomeIcon
+            style={{ color: "red" }}
+            className="mx-2"
+            icon={faHeart}
+          />{" "}
+          by <span className="h5">Abhishek Sirohi</span>
         </div>
       </div>
     </>
