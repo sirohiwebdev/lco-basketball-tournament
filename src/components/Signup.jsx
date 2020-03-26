@@ -25,7 +25,7 @@ const LoginContainer = styled.div`
 export const Signup = () => {
   return (
     <LoginContainer className="bg-white shadow">
-      <form className="form" onSubmit={() => false}>
+      <form className="form" method="POST" onSubmit={() => false}>
         <h3 className="text-imp text-center my-3">Register Now</h3>
 
         <div className="form-group">
@@ -49,7 +49,7 @@ export const Signup = () => {
           <input type="email" className="form-control rounded-0" />
         </div>
 
-        <Button color="primary" className="w-50 mx-auto d-block">
+        <Button color="primary" type="button" className="w-50 mx-auto d-block">
           Register
         </Button>
       </form>

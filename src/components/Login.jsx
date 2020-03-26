@@ -25,7 +25,7 @@ const LoginContainer = styled.div`
 export const Login = () => {
   return (
     <LoginContainer className="bg-white shadow">
-      <form className="form" onSubmit={() => false}>
+      <form className="form" method="POST" onSubmit={false}>
         <h3 className="text-imp text-center my-3">Login to Continue</h3>
 
         <div className="form-group">
@@ -42,7 +42,7 @@ export const Login = () => {
           <input type="password" className="form-control rounded-0" />
         </div>
 
-        <Button color="success" className="w-50 mx-auto d-block">
+        <Button color="success" type="button" className="w-50 mx-auto d-block">
           Login
         </Button>
       </form>
